@@ -1,0 +1,11 @@
+INFO 2022-12-11 20:37:43,400 root I am trying to read a file
+CRITICAL 2022-12-11 20:37:43,400 root This is a situation for us
+ERROR 2022-12-11 20:37:43,400 root [Errno 2] No such file or directory: 'Dharmendra.txt'
+INFO 2022-12-11 20:40:41,923 root I am trying to read a file
+CRITICAL 2022-12-11 20:40:41,923 root This is a situation for us
+ERROR 2022-12-11 20:40:41,923 root [Errno 2] No such file or directory: 'Dharmendra.txt'
+ERROR 2022-12-11 20:40:41,923 root [Errno 2] No such file or directory: 'Dharmendra.txt'
+Traceback (most recent call last):
+  File "/config/workspace/test5.py", line 6, in <module>
+    with open("Dharmendra.txt","r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'Dharmendra.txt'

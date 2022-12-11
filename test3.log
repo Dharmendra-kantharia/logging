@@ -1,0 +1,46 @@
+INFO 2022-12-03 15:32:58,412 root This is my log with timestamp
+INFO 2022-12-03 15:32:58,412 root The number entereed by user is %s and %s , a,b
+INFO 2022-12-03 15:36:13,034 root The number entereed by user is %s and %s , a,b
+INFO 2022-12-03 15:37:37,061 root The number entereed by user is 3 and 6
+INFO 2022-12-03 15:41:11,263 root The number entereed by user is 3 and 6
+INFO 2022-12-03 15:46:06,896 root The number entereed by user is 3 and 6
+INFO 2022-12-03 15:46:06,896 root We are into function
+INFO 2022-12-03 15:46:06,896 root We have completed a division operation
+INFO 2022-12-03 15:46:12,946 root The number entereed by user is 3 and 6
+INFO 2022-12-03 15:46:12,946 root We are into function
+INFO 2022-12-03 15:46:12,946 root We have completed a division operation
+INFO 2022-12-03 15:47:26,715 root The number entereed by user is 3 and 0
+INFO 2022-12-03 15:47:26,715 root We are into function
+ERROR 2022-12-03 15:47:26,715 root division by zero
+Traceback (most recent call last):
+  File "/config/workspace/test3.py", line 9, in divide
+    div = a/b
+ZeroDivisionError: division by zero
+INFO 2022-12-03 15:51:53,779 root The number entereed by user is 3 and 0
+INFO 2022-12-03 15:51:53,780 root We are into function
+ERROR 2022-12-03 15:51:53,780 root division by zero
+Traceback (most recent call last):
+  File "/config/workspace/test3.py", line 9, in divide
+    div = a/b
+ZeroDivisionError: division by zero
+INFO 2022-12-03 15:52:02,372 root The number entereed by user is 3 and 7
+INFO 2022-12-03 15:52:02,372 root We are into function
+INFO 2022-12-03 15:52:02,372 root We have completed a division operation
+INFO 2022-12-03 15:52:21,006 root The number entereed by user is 3 and 7
+INFO 2022-12-03 15:52:21,006 root We are into function
+INFO 2022-12-03 15:52:21,006 root We have completed a division operation
+INFO 2022-12-03 15:53:31,743 root The number entereed by user is 3 and 7
+INFO 2022-12-03 15:53:31,743 root We are into function
+INFO 2022-12-03 15:53:31,743 root We have completed a division operation
+INFO 2022-12-03 15:53:31,743 root The result of code is 0.42857142857142855
+INFO 2022-12-11 20:04:02,950 root The number entereed by user is 3 and 0
+INFO 2022-12-11 20:04:02,950 root We are into function
+ERROR 2022-12-11 20:04:02,950 root division by zero
+Traceback (most recent call last):
+  File "/config/workspace/test3.py", line 9, in divide
+    div = a/b
+ZeroDivisionError: division by zero
+INFO 2022-12-11 20:04:30,018 root The number entereed by user is 3 and 9
+INFO 2022-12-11 20:04:30,018 root We are into function
+INFO 2022-12-11 20:04:30,018 root We have completed a division operation
+INFO 2022-12-11 20:04:30,019 root The result of code is 0.3333333333333333
